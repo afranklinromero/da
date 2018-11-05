@@ -14,8 +14,15 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-        $response = $this->get('/');
-
+        $response = $this->get('/usuarios');
         $response->assertStatus(200);
+       
     }
+    public function lista_de_usuarios()
+    {
+        $this->get('/usuarioss')
+            ->assertStatus(200)
+            ->assertSee ('Usuarisos');
+    }
+
 }

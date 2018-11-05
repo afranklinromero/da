@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ControlUsuario@home');
+    
+Route::get('/usuarios', 'ControlUsuario@usuario'); 
+
+Route::get('/usuarios/{name}/{apodo}', 'wellcomeUsuarioControlador');

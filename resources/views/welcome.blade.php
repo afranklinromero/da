@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Sistema de Despachante de Aduanas</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -61,6 +61,8 @@
 
             .m-b-md {
                 margin-bottom: 30px;
+                font-size:60px;
+
             }
         </style>
     </head>
@@ -79,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    SISTEMA DE DESPACHANTE DE ADUANAS
                 </div>
 
                 <div class="links">
